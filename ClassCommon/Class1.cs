@@ -11,6 +11,7 @@ namespace ClassCommon
         private int værdi;
         private bool snyd;
 
+        
         private static Random rnd = new Random();
 
         public Terning()

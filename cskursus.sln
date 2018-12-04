@@ -30,6 +30,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpgaveClassSimple", "Opgave
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassCommon", "ClassCommon\ClassCommon.csproj", "{4DE357AF-0D7F-4B35-AC31-D20FDAE133D9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpgaveClassVare", "OpgaveClassVare\OpgaveClassVare.csproj", "{E0C3FBC5-78B6-4D8E-8E67-BBC870D75CF0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpgaveAutoProperties", "OpgaveAutoProperties\OpgaveAutoProperties.csproj", "{E0613944-8C4D-4509-8B1F-425FF65DC0D6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -80,6 +84,14 @@ Global
 		{4DE357AF-0D7F-4B35-AC31-D20FDAE133D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4DE357AF-0D7F-4B35-AC31-D20FDAE133D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4DE357AF-0D7F-4B35-AC31-D20FDAE133D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0C3FBC5-78B6-4D8E-8E67-BBC870D75CF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0C3FBC5-78B6-4D8E-8E67-BBC870D75CF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0C3FBC5-78B6-4D8E-8E67-BBC870D75CF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0C3FBC5-78B6-4D8E-8E67-BBC870D75CF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0613944-8C4D-4509-8B1F-425FF65DC0D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0613944-8C4D-4509-8B1F-425FF65DC0D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0613944-8C4D-4509-8B1F-425FF65DC0D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0613944-8C4D-4509-8B1F-425FF65DC0D6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E396B0CA-C925-4B98-B88C-AB52E9BB6DB0}</ProjectGuid>
+    <ProjectGuid>{E0613944-8C4D-4509-8B1F-425FF65DC0D6}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>OpgaveClassTerning</RootNamespace>
-    <AssemblyName>OpgaveClassTerning</AssemblyName>
+    <RootNamespace>OpgaveAutoProperties</RootNamespace>
+    <AssemblyName>OpgaveAutoProperties</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -48,16 +48,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="ClassDiagram1.cd" />
-  </ItemGroup>
-  <ItemGroup>
-    <WCFMetadata Include="Connected Services\" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\ClassCommon\ClassCommon.csproj">
-      <Project>{4de357af-0d7f-4b35-ac31-d20fdae133d9}</Project>
-      <Name>ClassCommon</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
