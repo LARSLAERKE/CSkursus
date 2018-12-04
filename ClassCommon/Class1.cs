@@ -11,7 +11,6 @@ namespace ClassCommon
         private int værdi;
         private bool snyd;
 
-        
         private static Random rnd = new Random();
 
         public Terning()
@@ -24,6 +23,21 @@ namespace ClassCommon
             this.værdi = 1;
             this.snyd = snyd;
         }
+
+
+        public int Værdi
+        {
+            get
+            {
+                return this.værdi;
+            }
+            set
+            {
+                this.værdi = value;
+            }
+        }
+
+
 
         public void Ryst() => this.værdi = this.snyd ? 6 : rnd.Next(1, 7);
 
