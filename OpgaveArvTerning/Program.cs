@@ -81,15 +81,18 @@ namespace OpgaveArvTerning
         }
     }
 
+
     public class TerningBæger
+
     {
 
+        // liste af terninger
 
 
-        //Metoder? FuldtHus,  
+
+        // metoder til Yatzy, FuldtHus, ToPar, TreEns
+
 
 
     }
-
-
 }
